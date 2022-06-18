@@ -1,0 +1,562 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  color: var(--dl-color-gray-white);
+  border: none;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-primary-100);
+}
+
+.blog-post-card2-blog-post-card {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-post-card2-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.blog-post-card2-image {
+  width: 350px;
+  height: 334px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.blog-post-card2-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.blog-post-card2-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-post-card2-text {
+  color: var(--dl-color-gray-500);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.blog-post-card2-text1 {
+  color: var(--dl-color-gray-500);
+  font-weight: 300;
+}
+.blog-post-card2-text2 {
+  margin-bottom: 32px;
+}
+.blog-post-card2-text3 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+}
+.blog-post-card2-container2 {
+  width: 765px;
+  margin: 0px;
+  display: flex;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-post-card2-profile {
+  display: flex;
+  align-items: center;
+}
+.blog-post-card2-image1 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.blog-post-card2-text4 {
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.blog-post-card2-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+}
+.blog-post-card2-text5 {
+  color: #222223;
+}
+.blog-post-card2-icon2 {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+}
+.blog-post-card2-text6 {
+  color: #222223;
+}
+.blog-post-card2-icon4 {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+}
+.blog-post-card2-text7 {
+  color: #222223;
+}
+.blog-post-card2-icon6 {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+}
+.blog-post-card2-text8 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.blog-post-card2-root-class-name {
+  flex: 1;
+  height: 40%;
+}
+.blog-post-card2-root-class-name3 {
+  flex: 1;
+  height: 40%;
+}
+@media(max-width: 991px) {
+  .blog-post-card2-blog-post-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .blog-post-card2-blog-post-card {
+    flex-direction: column;
+  }
+  .blog-post-card2-image {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .blog-post-card2-container2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog-post-card2-text8 {
+    width: auto;
+  }
+}
+
+.livediscussion-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.livediscussion-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.livediscussion-image {
+  width: 100px;
+  object-fit: cover;
+}
+.livediscussion-navbar {
+  width: 943px;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-logo {
+  opacity: 0.8;
+}
+.livediscussion-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-text01 {
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.livediscussion-text02 {
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.livediscussion-text03 {
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.livediscussion-text04 {
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.livediscussion-link {
+  display: contents;
+}
+.livediscussion-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-burger-menu {
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.livediscussion-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.livediscussion-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.livediscussion-icon03 {
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-right-side1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-text05 {
+  margin-bottom: 8px;
+}
+.livediscussion-text06 {
+  margin-bottom: 8px;
+}
+.livediscussion-text07 {
+  margin-bottom: 8px;
+}
+.livediscussion-link01 {
+  display: contents;
+}
+.livediscussion-follow-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-text09 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.livediscussion-icons-container {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-link02 {
+  display: contents;
+}
+.livediscussion-icon05 {
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-link03 {
+  display: contents;
+}
+.livediscussion-icon07 {
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-link04 {
+  display: contents;
+}
+.livediscussion-icon09 {
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-width: var(--dl-size-size-halfunit);
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.livediscussion-container3 {
+  flex: 0 0 auto;
+  width: 1171px;
+  height: 100px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.livediscussion-text10 {
+  font-size: 45px;
+  font-family: Verdana;
+}
+.livediscussion-blog {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-container4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-container5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-footer {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.livediscussion-menu {
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-links-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-container6 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+  flex-direction: column;
+}
+.livediscussion-link05 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link08 {
+  text-decoration: none;
+}
+.livediscussion-container7 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+  flex-direction: column;
+}
+.livediscussion-link09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.livediscussion-link12 {
+  text-decoration: none;
+}
+.livediscussion-follow-container1 {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.livediscussion-text11 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.livediscussion-icons-container1 {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.livediscussion-link13 {
+  display: contents;
+}
+.livediscussion-icon11 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-link14 {
+  display: contents;
+}
+.livediscussion-icon13 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.livediscussion-link15 {
+  display: contents;
+}
+.livediscussion-icon15 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 767px) {
+  .livediscussion-right-side {
+    display: none;
+  }
+  .livediscussion-burger-menu {
+    display: flex;
+  }
+  .livediscussion-blog {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .livediscussion-menu {
+    flex-direction: column;
+  }
+  .livediscussion-links-container2 {
+    margin-top: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-tripleunit);
+    justify-content: space-between;
+  }
+  .livediscussion-container6 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .livediscussion-blog {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .livediscussion-links-container2 {
+    margin-top: var(--dl-space-space-doubleunit);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .livediscussion-link05 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link06 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link07 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link08 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-container7 {
+    height: 100%;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .livediscussion-link09 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link10 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link11 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-link12 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .livediscussion-follow-container1 {
+    margin-left: 0px;
+  }
+}
